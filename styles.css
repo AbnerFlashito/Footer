@@ -1,0 +1,142 @@
+body{
+    background-color: #173083;
+}
+
+footer{
+    color: white;
+}
+
+ul li{
+    list-style: none;
+
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Inicio Footer */
+
+.max-container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-icon svg{
+    height: 50px;
+}
+
+/* Medio Footer */
+
+.main-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* main-content_item_1 */
+
+.item-top{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.img-logo{
+    width: 100%;
+    text-align: center;
+}
+
+/* main-content_item_2 */
+
+.main-content_item_2 p{
+    text-align: center;
+}
+
+.main-content_item_2 ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.img-safety svg{
+    width: 100%;
+}
+
+.comprobante{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #FBB905;
+    height: 55px;
+    width: 223px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.comprobante a svg{
+    margin: auto 15px auto 0;
+}
+
+.comprobante a{
+    text-decoration: none;
+    color: #173083;
+}
+
+/* main-content_item_3 */
+
+.send-mail{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.send-mail input{
+    border-radius: 5px 0 0 5px;
+    width: 50%;
+    height: 35px;
+    padding: 0 9px;
+    font-size: 16px;
+}
+
+.send-mail button{
+    width: 112px;
+    height: 38px;
+    outline: 0;
+    background: #ffb500;
+    border-radius: 0 5px 5px 0;
+    font-size: 12px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.terms-conditions{
+    margin-bottom: 20px;
+}
+
+.terms-conditions a{
+    color: white;
+}
+
+.libro-reclamaciones{
+    background-color: white;
+    width: 100px;
+    border-radius: 5px;
+}
+
+/* Final Footer */
+
+hr{
+    margin-top: 20px;
+    color: aliceblue;
+    width: 95%;
+}
+
+.main-footer p{
+    width: 100%;
+    text-align: center;
+}
